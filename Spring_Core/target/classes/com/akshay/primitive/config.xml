@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:p="http://www.springframework.org/schema/p"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean name="emp1" class="com.akshay.primitive.Employe" p:id="19esbcs002" p:empName="Akshay Jangid" p:address="raipur">
+		
+	
+	
+      </bean>
+	   <bean name="emp2" class="com.akshay.primitive.Employe">
+		<property name="id" value="19esbcs001">
+		</property>
+		
+		<property name="empName" value="Abhishek kumar">
+		</property>
+		
+		<property name="address" value="chomupuliya">
+		</property>
+	</bean>   
+	<bean name="emp3" class="com.akshay.primitive.Employe">
+		<property name="id" value="19esbcs0023">
+		</property>
+		
+		<property name="empName" value="Ritik parmar">
+		</property>
+		
+		<property name="address" value="udaipur">
+		</property>
+	</bean>
+	
+
+</beans>
